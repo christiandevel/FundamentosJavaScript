@@ -8,7 +8,11 @@
 
 // 'var' se eleva la declaracion mas no la asignacion.
 
-saludar('hello'); //I Hola en ingles es: Hello
-function saludar(saludo) {
-	console.log('Hola en ingles es:' , saludo)
-}
+console.log(nombre); //undefined
+var nombre = 'Christian';
+
+
+// saludar('hello'); //I Hola en ingles es: Hello
+// function saludar(saludo) {
+// 	console.log('Hola en ingles es:' , saludo)
+// }
